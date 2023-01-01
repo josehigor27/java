@@ -13,6 +13,7 @@ public class BufferedReaderTest {
             String line;
             while ((line=bReader.readLine())!=null){
                 System.out.println(line);
+                
             }
         }catch(IOException ex){
             ex.printStackTrace();
